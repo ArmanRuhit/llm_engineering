@@ -29,7 +29,11 @@ llm_engineering/
 ├── week3/                 # Advanced models & multimodality
 │   ├── day1.ipynb         # Hugging Face transformers
 │   ├── day2.ipynb         # Multimodal applications
-│   └── speech.wav         # Sample audio file
+│   ├── day3.ipynb         # Advanced transformers
+│   ├── day4.ipynb         # Quantized models
+│   ├── day5.ipynb         # Meeting minutes generator
+│   ├── speech.wav         # Sample audio file
+│   └── denver_extract.mp3 # Meeting audio sample
 └── .env                   # Environment variables for API keys
 ```
 
@@ -53,10 +57,19 @@ llm_engineering/
 - Text-to-image generation with multiple models
 - Speech synthesis and audio processing
 - Building multimodal applications
+- Quantized LLM inference with 4-bit precision
+- Automated meeting minutes generation from audio recordings
+- Speech-to-text with Whisper models
 
 ## Requirements
 
-This project requires Python 3.13 or higher with the dependencies listed in the pyproject.toml file.
+This project requires Python 3.13 or higher with the dependencies listed in the pyproject.toml file, including:
+- transformers - For accessing Hugging Face models
+- diffusers - For text-to-image generation
+- torch - PyTorch for tensor operations
+- faster-whisper - For efficient speech recognition
+- bitsandbytes - For model quantization
+- requests/httpx - For API communications
 
 ## Setup Instructions
 
